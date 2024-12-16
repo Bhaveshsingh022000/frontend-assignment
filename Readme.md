@@ -1,5 +1,6 @@
 # Frontend Assignment
 
+## Deployed project link - https://frontend-assignment-hazel.vercel.app/
 
 ## Assignment
 
