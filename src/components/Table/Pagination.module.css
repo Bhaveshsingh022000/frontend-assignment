@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .pagination ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 0.25rem;
+  }
+  
+  .pageLink {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .pageLink:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .pageLink.active {
+    background-color: #1976d2;
+    color: #fff;
+    border-color: #1976d2;
+  }
+  
+  
