@@ -34,7 +34,7 @@ const Home = () => {
     return transformedData;
   }, [data, isFetching]);
 
-  if (error) return <div>Error</div>;
+  if (error) return <div>{String(error)}</div>;
 
   return (
     <div>
